@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 
 @dag(
-    start_date=datetime(2024, 2, 2),
+    start_date=datetime(2024, 9, 6),
     schedule_interval="@daily",
     catchup=False,
 )
